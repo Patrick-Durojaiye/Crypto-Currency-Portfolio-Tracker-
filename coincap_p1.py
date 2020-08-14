@@ -16,10 +16,10 @@ def font_color(amount):
         return "red"
 
 def my_portfolio():
-    url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
+    url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
     headers = {
     'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': 'Add your API key here',
+    'X-CMC_PRO_API_KEY': '',
     }
 
     parameters = {
